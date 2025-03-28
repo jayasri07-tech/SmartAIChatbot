@@ -1,0 +1,37 @@
+Style.css------
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.chat-container {
+    width: 65%;
+    margin: auto;
+    background: rgb(66, 146, 200);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(218, 98, 98, 0.2);
+    text-align: center;
+}
+
+#chat-box {
+    height: 85vh;
+    overflow-y: auto;
+    border-bottom: 1px solid #ab608b;
+    padding: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 6px;
+    cursor: pointer;
+    background: rgb(52, 58, 127);
+    color: white;
+    border: none;
+}
